@@ -57,7 +57,7 @@ export const info = {
     socials: [
        
         {
-            link: "https://github.com",
+            link: "https://github.com/GregPiet",
             icon: "fa fa-github",
             label: 'github'
         },
