@@ -24,41 +24,38 @@ of what each of the values mean.
 
 export const info = {
     firstName: "Grégory",
+    motto: "A student with a passion for creating and developping new and functional things.",
     lastName: "Pietquin",
     initials: "gp", // the example uses first and last, but feel free to use three or more if you like.
-    position: "Project engineer",
+    position: "Project engineer and student in computer science",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '☕',
-            text: 'fueled by coffee'
+            text: 'fueled by learning'
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in the Belgium (Fosse-la-Ville)'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Projects engineer at INASEP"
+        },
+        {
+            //emojy of sutdent
+            emoji: "🎓",
+            text: "Civil engineering student at UMons (computer science and management)"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "pietquin.gregory@outlook.be"
         }
     ],
     socials: [
-        {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
+       
         {
             link: "https://github.com",
             icon: "fa fa-github",
@@ -69,11 +66,7 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
-        }
+        
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
